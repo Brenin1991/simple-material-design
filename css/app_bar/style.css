@@ -1,0 +1,88 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design App Bar--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+app-bar{
+    position: relative;
+    display: block;
+	width: auto;
+	height:56px;
+	color:#FFF;
+    text-align:center;
+    outline: none;
+    letter-spacing: 0;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    
+    /* Remove selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Transition */
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+
+    /* Shadow */
+    -webkit-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+}
+
+.top{
+	background-color:#6002ee;
+}
+
+.nav-icon{
+    float: left;
+    padding: 15px;
+} 
+
+.title{
+    float: left;
+    padding: 15px;
+} 
+
+.action-icon{
+    float: right;
+    padding: 15px;
+} 
+
+.botton{
+    background-color:#6002ee;
+    display: flex;
+    list-style:none;
+    float: left;
+}
+
+.icon{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+} 
+
+.label{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.icon:hover{
+    font-size: 15px;
+    color: rgba(255, 255, 255);
+} 
+
+
+

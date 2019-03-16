@@ -1,0 +1,162 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design Button--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+/* Floating Action Button */
+floating-button{
+    position: relative;
+    display: block;
+	width:56px;
+	height:56px;
+	color:#FFF;
+	border-radius: 100%;
+    text-align:center;
+    margin: 2em;
+    border: none;
+    outline: none;
+    letter-spacing: 0;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    
+    /* Remove selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Transition */
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+
+    /* Shadow */
+    -webkit-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+}
+
+/* Button */
+button{
+    position: relative;
+    display: block;
+    min-width: 88px;
+    padding: 12px 20px;
+    height: 3em;
+    margin: 2em;
+    border: none;
+    outline: none;
+    letter-spacing: 0;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    
+    /* Remove selection */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Transition */
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+
+    /* Shadow */
+    -webkit-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+    box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
+}
+
+/* Raised Button */
+.raised-btn{
+    background: #6002ee;
+    border-color: #cdcdcd;
+}
+
+.raised-btn:hover{
+    background: #7e3ff2
+}
+
+.raised-btn a{
+    float: right;
+    color: white;
+}
+
+.raised-btn i{
+    color: white;
+    padding-right: 10px;
+}
+
+/* Text Button */
+.text-btn{
+    background-color:rgba(255, 255, 255, 0);
+
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);    
+}
+
+.text-btn:hover{
+    background: #cdcdcd;
+}
+
+.text-btn a{
+    float: right;
+    color: #6002ee;
+}
+
+.text-btn i{
+    color: #6002ee;
+    padding-right: 10px;
+}
+
+/* Outlined Button */
+.outlined-btn{
+    background-color:rgba(255, 255, 255, 0);
+    border-color:  #6002ee;
+
+    /* Shadow */
+    -webkit-box-shadow: 0.1px 0.1px 0 rgba(0,0,0,0.12), 0 1px 0.1px 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0.1px 0.1px 0 rgba(0,0,0,0.12), 0 1px 0.1px 0 rgba(0,0,0,0.24);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.12), 1px 1px 1px rgba(0,0,0,0.24);
+}
+
+.outlined-btn:hover{
+
+}
+
+.outlined-btn a{
+    float: right;
+    color: #6002ee;
+}
+
+.outlined-btn i{
+    color: #6002ee;
+    padding-right: 10px;
+}
+
+/* Floating Button */
+.floating-btn{
+    background: #6002ee;
+    border-color: #cdcdcd;
+}
+
+.floating-btn:hover{
+    background: #7e3ff2
+}
+
+.floating-btn i{
+    color: white;
+    margin-top: 30%;
+}

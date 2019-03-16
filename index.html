@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Simple Material Design by Breno Campos Ribeiro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/background/style.css">
+        <link rel="stylesheet" href="css/button/style.css">
+        <link rel="stylesheet" href="css/text_field/style.css">
+        <link rel="stylesheet" href="css/app_bar/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    </head>
+
+	<body>
+        <!--Background-->
+        <material-body >
+
+            <!--App Bar (TOP)-->
+            <app-bar class="top">
+                <!--Navigation icon-->
+                <div class="nav-icon">
+                    <i class="material-icons md-24">dehaze</i>
+                </div>
+                <!--Page Title-->
+                <a class="title">Page title</a>
+                <!--Action icon-->
+                <div class="action-icon">
+                        <i class="material-icons md-24">more_vert</i>
+                </div>
+                <!--Action icon-->
+                <div class="action-icon">
+                        <i class="material-icons md-24">search</i>
+                </div>
+                <!--Action icon-->
+                <div class="action-icon">
+                        <i class="material-icons md-24">share</i>
+                </div>
+            </app-bar>
+
+            <!--Raised button-->
+            <button class="raised-btn">
+                <!--Button icon (optional)-->
+                <i class="material-icons md-16">add_shopping_cart</i>
+                <!--Button label-->
+                <a>ADD TO CARD</a>
+            </button> 
+
+            <!--Text button-->
+            <button class="text-btn">
+                <!--Button icon (optional)-->
+                <i class="material-icons md-16">favorite_border</i>
+                <!--Button label-->
+                <a>FAVORITE</a>
+            </button> 
+
+            <!--Outlined button-->
+            <button class="outlined-btn">
+                <!--Button icon (optional)-->
+                <i class="material-icons md-16">account_circle</i>
+                <!--Button label-->
+                <a>ACCOUNT</a>
+            </button> 
+
+            <!--Floating button-->
+            <floating-button class="floating-btn">
+                <!--Button icon-->
+                <i class="material-icons md-16">search</i>
+            </floating-button>
+
+            <!--Form-->
+            <form>
+                <!--Text Field-->
+                <div class="group">    
+                    <!--Text-->
+                    <input type="text" required> 
+                    <!--Activation indicator-->
+                    <span class="bar"></span>
+                    <!--Label-->
+                    <label>Name</label>
+                    <!--Helper Text (optional)-->
+                    <a>Helper text</a>
+                </div> 
+            </form>
+    
+            <!--App Bar (TOP)-->
+            <app-bar class="botton">
+                <!--Icon & subtitle-->
+                <div class="icon">
+                    <i class="material-icons md-24">favorite</i>
+                    <a class="label">Favorites</a>
+                </div>  
+                <!--Icon & subtitle-->
+                <div class="icon">
+                    <i class="material-icons md-24">music_note</i>
+                    <a class="label">Music</a>
+                </div>  
+                <!--Icon & subtitle-->
+                <div class="icon">
+                    <i class="material-icons md-24">chrome_reader_mode</i>
+                    <a class="label">Books</a>
+                </div>   
+                <!--Icon & subtitle-->
+                <div class="icon">
+                    <i class="material-icons md-24">store</i>
+                    <a class="label">Store</a>
+                </div>            
+            </app-bar>
+
+        </material-body>
+
+    </body>
+    
+</html>
