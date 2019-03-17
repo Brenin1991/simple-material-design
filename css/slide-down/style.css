@@ -1,0 +1,26 @@
+/* Esconder botao */
+
+#toggle {
+    position: absolute;
+    cursor: pointer;
+    left:-100%;
+    top: -100%;
+}
+
+/* menu */
+
+#menu {
+    background: #181818;
+    color: #fff;
+    position: absolute;
+    top: -250px;
+    left: 0;
+    -webkit-transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    -moz-transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* seletor irmao adjacnte */
+ 

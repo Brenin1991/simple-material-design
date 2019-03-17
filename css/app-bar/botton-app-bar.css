@@ -1,0 +1,40 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design Root--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+/*  Colors*/
+
+/* Red family*/
+
+/* Red 700*/
+.ab-botton-red-700{
+    background-color: #d32f2f;
+   
+}
+
+.ab-botton-red-700 .icon{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+} 
+
+.ab-botton-red-700 .label{
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.ab-botton-red-700 .icon:hover{
+    font-size: 15px;
+    color: rgba(255, 255, 255);
+} 
+

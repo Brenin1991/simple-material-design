@@ -1,0 +1,46 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design Root--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+#tudo {
+	min-height: 100%;
+}
+
+* html #tudo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+
+#tudo {
+	position: relative;
+
+}
+
+#rodape {
+    position: absolute;
+    width: 100%;
+	bottom: 0;
+}
+
+#conteudo {
+    padding-bottom: 30px;
+    height: 100%;
+}

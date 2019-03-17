@@ -1,0 +1,306 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design Text Button--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+/* Text Button Colors*/
+
+/* Red family*/
+.tb-red{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);  
+}
+
+.tb-red a{
+    color: #d50000;
+}
+
+.tb-red i{
+    color: #d50000;
+}
+
+.tb-red:hover{
+    background: #E1E2E1;
+}
+
+/* Red 100 */
+.tb-red-100{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24); 
+}
+
+.tb-red-100 a{
+    color: #ffcdd2;
+}
+
+.tb-red-100 i{
+    color: #ffcdd2;
+}
+
+.tb-red-100:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red A 100 */
+.tb-red-a-100{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-a-100 a{
+    color: #ff8a80;
+}
+
+.tb-red-a-100 i{
+    color: #ff8a80;
+}
+
+.tb-red-a-100:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 200 */
+.tb-red-200{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-200 a{
+    color: #ef9a9a;
+}
+
+.tb-red-200 i{
+    color: #ef9a9a;
+}
+
+.tb-red-200:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red A 200 */
+.tb-red-a-200{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-a-200 a{
+    color:  #ff5252;
+}
+
+.tb-red-a-200 i{
+    color:  #ff5252;
+}
+
+.tb-red-a-200:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 300 */
+.tb-red-300{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-300 a{
+    color:  #e57373;
+}
+
+.tb-red-300 i{
+    color:  #e57373;
+}
+
+.tb-red-300:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 400 */
+.tb-red-400{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-400 a{
+    color:  #ef5350;
+}
+
+.tb-red-400 i{
+    color:  #ef5350;
+}
+
+.tb-red-400:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red A 400 */
+.tb-red-a-400{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-a-400 a{
+    color:  #ff1744;
+}
+
+.tb-red-a-400 i{
+    color:  #ff1744;
+}
+
+.tb-red-a-400:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 500 */
+.tb-red-500{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-500 a{
+    color:  #f44336;
+}
+
+.tb-red-500 i{
+    color:  #f44336;
+}
+
+.tb-red-500:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 600 */
+.tb-red-600{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-600 a{
+    color:  #e53935;
+}
+
+.tb-red-600 i{
+    color:  #e53935;
+}
+
+.tb-red-600:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 700 */
+.tb-red-700{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-700 a{
+    color:  #d32f2f;
+}
+
+.tb-red-700 i{
+    color:  #d32f2f;
+}
+
+.tb-red-700:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red A 700 */
+.tb-red-a-700{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-a-700 a{
+    color:  #d50000;
+}
+
+.tb-red-a-700 i{
+    color:  #d50000;
+}
+
+.tb-red-a-700:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 800 */
+.tb-red-800{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-800 a{
+    color:  #c62828;
+}
+
+.tb-red-800 i{
+    color:  #c62828;
+}
+
+.tb-red-800:hover{
+    background: rgba(225, 226, 225, 0.473);
+}
+
+/* Red 900 */
+.tb-red-900{
+    background-color:rgba(255, 255, 255, 0);
+    /* Shadow */
+    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
+}
+
+.tb-red-900 a{
+    color:  #b71c1c;
+}
+
+.tb-red-900 i{
+    color:  #b71c1c;
+}
+
+.tb-red-900:hover{
+    background: rgba(225, 226, 225, 0.473);
+}

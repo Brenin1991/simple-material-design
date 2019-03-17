@@ -1,0 +1,256 @@
+
+/*
+    2019 - Hard Rock Studio 
+    Simple Material Design by Breno Campos Ribeiro
+
+    --Material Design Floating Button--
+
+    GitHub Repository: https://github.com/Brenin1991/simple-material-design
+    License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
+*/
+
+/* Floating Button Colors*/
+
+/* Red family*/
+.fb-red{
+    background-color: #d50000;
+    border-color: #cdcdcd;
+}
+
+.fb-red:hover{
+    background-color: #ff5131;
+}
+
+/* Red 100 */
+.fb-red-100{
+    background-color: #ffcdd2;
+    border-color: #cdcdcd;
+}
+
+.fb-red-100 a{
+    color: #000000;
+}
+
+.fb-red-100 i{
+    color: #000000;
+}
+
+.fb-red-100:hover{
+    background-color: #ffffff;
+}
+
+/* Red A 100 */
+.fb-red-a-100{
+    background-color: #ff8a80;
+    border-color: #cdcdcd;
+}
+
+.fb-red-a-100 a{
+    color: #000000;
+}
+
+.fb-red-a-100 i{
+    color: #000000;
+}
+
+.fb-red-a-100:hover{
+    background-color: #ffbcaf;
+}
+
+/* Red 200 */
+.fb-red-200{
+    background-color: #ef9a9a;
+    border-color: #cdcdcd;
+}
+
+.fb-red-200 a{
+    color: #000000;
+}
+
+.fb-red-200 i{
+    color: #000000;
+}
+
+.fb-red-200:hover{
+    background-color: #ffcccb;
+}
+
+/* Red A 200 */
+.fb-red-a-200{
+    background-color: #ff5252;
+    border-color: #cdcdcd;
+}
+
+.fb-red-a-200 a{
+    color: #000000;
+}
+
+.fb-red-a-200 i{
+    color: #000000;
+}
+
+.fb-red-a-200:hover{
+    background-color: #ff867f;
+}
+
+/* Red 300 */
+.fb-red-300{
+    background-color: #e57373;
+    border-color: #cdcdcd;
+}
+
+.fb-red-300 a{
+    color: #000000;
+}
+
+.fb-red-300 i{
+    color: #000000;
+}
+
+.fb-red-300:hover{
+    background-color: #ffa4a2;
+}
+
+/* Red 400 */
+.fb-red-400{
+    background-color: #ef5350;
+    border-color: #cdcdcd;
+}
+
+.fb-red-400 a{
+    color: #000000;
+}
+
+.fb-red-400 i{
+    color: #000000;
+}
+
+.fb-red-400:hover{
+    background-color: #ff867c;
+}
+
+/* Red A 400 */
+.fb-red-a-400{
+    background-color: #ff1744;
+    border-color: #cdcdcd;
+}
+
+.fb-red-a-400 a{
+    color: #000000;
+}
+
+.fb-red-a-400 i{
+    color: #000000;
+}
+
+.fb-red-a-400:hover{
+    background-color: #ff616f;
+}
+
+/* Red 500 */
+.fb-red-500{
+    background-color: #f44336;
+    border-color: #cdcdcd;
+}
+
+.fb-red-500 a{
+    color: #000000;
+}
+
+.fb-red-500 i{
+    color: #000000;
+}
+
+.fb-red-500:hover{
+    background-color: #ff7961;
+}
+
+/* Red 600 */
+.fb-red-600{
+    background-color: #e53935;
+    border-color: #cdcdcd;
+}
+
+.fb-red-600 a{
+    color: #000000;
+}
+
+.fb-red-600 i{
+    color: #000000;
+}
+
+.fb-red-600:hover{
+    background-color: #ff6f60;
+}
+
+/* Red 700 */
+.fb-red-700{
+    background-color: #d32f2f;
+    border-color: #cdcdcd;
+}
+
+.fb-red-700 a{
+    color: #ffffff;
+}
+
+.fb-red-700 i{
+    color: #ffffff;
+}
+
+.fb-red-700:hover{
+    background-color: #ff6659;
+}
+
+/* Red A 700 */
+.fb-red-a-700{
+    background-color: #d50000;
+    border-color: #cdcdcd;
+}
+
+.fb-red-a-700 a{
+    color: #ffffff;
+}
+
+.fb-red-a-700 i{
+    color: #ffffff;
+}
+
+.fb-red-a-700:hover{
+    background-color: #ff5131;
+}
+
+/* Red 800 */
+.fb-red-800{
+    background-color: #c62828;
+    border-color: #cdcdcd;
+}
+
+.fb-red-800 a{
+    color: #ffffff;
+}
+
+.fb-red-800 i{
+    color: #ffffff;
+}
+
+.fb-red-800:hover{
+    background-color: #ff5f52;
+}
+
+/* Red 900 */
+.fb-red-900{
+    background-color: #b71c1c;
+    border-color: #cdcdcd;
+}
+
+.fb-red-900 a{
+    color: #ffffff;
+}
+
+.fb-red-900 i{
+    color: #ffffff;
+}
+
+.fb-red-900:hover{
+    background-color: #f05545;
+}

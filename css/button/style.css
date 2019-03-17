@@ -9,9 +9,9 @@
     License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
 */
 
-/* Floating Action Button */
+/* Floating Button */
 floating-button{
-    position: relative;
+    position:fixed;
     display: block;
 	width:56px;
 	height:56px;
@@ -25,6 +25,9 @@ floating-button{
     font-weight: bold;
     cursor: pointer;
     overflow: hidden;
+    margin-top:10px;
+	bottom:40px;
+	right:0px;
     
     /* Remove selection */
     -webkit-user-select: none;
@@ -77,86 +80,22 @@ button{
     box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
 }
 
-/* Raised Button */
-.raised-btn{
-    background: #6002ee;
-    border-color: #cdcdcd;
-}
-
-.raised-btn:hover{
-    background: #7e3ff2
-}
-
-.raised-btn a{
+button a{
     float: right;
-    color: white;
+    color: #000000;
 }
 
-.raised-btn i{
-    color: white;
+button i{
     padding-right: 10px;
+    color: #000000;
 }
 
-/* Text Button */
-.text-btn{
-    background-color:rgba(255, 255, 255, 0);
-
-    /* Shadow */
-    -webkit-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
-    -moz-box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);
-    box-shadow: 0 0 0 rgba(0,0,0,0.12), 0 0 0 rgba(0,0,0,0.24);    
-}
-
-.text-btn:hover{
-    background: #cdcdcd;
-}
-
-.text-btn a{
+floating-button a{
     float: right;
-    color: #6002ee;
+    color: #000000;
 }
 
-.text-btn i{
-    color: #6002ee;
-    padding-right: 10px;
-}
-
-/* Outlined Button */
-.outlined-btn{
-    background-color:rgba(255, 255, 255, 0);
-    border-color:  #6002ee;
-
-    /* Shadow */
-    -webkit-box-shadow: 0.1px 0.1px 0 rgba(0,0,0,0.12), 0 1px 0.1px 0 rgba(0,0,0,0.24);
-    -moz-box-shadow: 0.1px 0.1px 0 rgba(0,0,0,0.12), 0 1px 0.1px 0 rgba(0,0,0,0.24);
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.12), 1px 1px 1px rgba(0,0,0,0.24);
-}
-
-.outlined-btn:hover{
-
-}
-
-.outlined-btn a{
-    float: right;
-    color: #6002ee;
-}
-
-.outlined-btn i{
-    color: #6002ee;
-    padding-right: 10px;
-}
-
-/* Floating Button */
-.floating-btn{
-    background: #6002ee;
-    border-color: #cdcdcd;
-}
-
-.floating-btn:hover{
-    background: #7e3ff2
-}
-
-.floating-btn i{
-    color: white;
+floating-button i{
     margin-top: 30%;
+    color: #000000;
 }
