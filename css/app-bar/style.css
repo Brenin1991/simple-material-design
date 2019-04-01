@@ -10,14 +10,13 @@
 */
 
 app-bar{
-    position: relative;
-    display: block;
-	width: auto;
-	height:56px;
-	color:#FFF;
-    text-align:center;
-    outline: none;
-    letter-spacing: 0;
+    /* Size */
+    width: auto;
+    height:56px;
+    /* Position */ 
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
     font-weight: bold;
     cursor: pointer;
     overflow: hidden;
@@ -70,30 +69,49 @@ app-bar{
     border-radius: 100%;
 } 
 
-.botton{
-    background-color:#6002ee;
+.top{
+    /* Position */ 
+    position: fixed;
+    top: 5px;
+    width: 100%;
     display: flex;
-   
+    justify-content: space-around;
+    align-items: start;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;   
 }
 
-.icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.5);
-} 
-
-.label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
-
+.botton{
+    /* Position */ 
+    position: fixed;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;   
 }
 
-.icon:hover{
-    font-size: 15px;
-    color: rgba(255, 255, 255);
+.item{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
 } 
+
+.item:hover{
+    font-size: 15px;
+} 
+
+.item a{
+    font-size: 15px;
+}
+
+.item i{
+    padding-left: 30px;
+}
 
 
 
