@@ -3,21 +3,20 @@
     2019 - Hard Rock Studio 
     Simple Material Design by Breno Campos Ribeiro
 
-    --Material Design App Bar--
+    --Material Design (App Bar)--
 
     GitHub Repository: https://github.com/Brenin1991/simple-material-design
     License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
 */
 
+/* App Bar Generic */
 app-bar{
     /* Size */
     width: auto;
     height:56px;
-    /* Position */ 
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
+    /* Font */ 
     font-weight: bold;
+    /* Cursor */ 
     cursor: pointer;
     overflow: hidden;
     
@@ -38,7 +37,22 @@ app-bar{
     box-shadow: 0.1px 3px 0 rgba(0,0,0,0.12), 0 1px 2px 0 rgba(0,0,0,0.24);
 }
 
+/* App Bar top */
+.top{
+    /* Position */ 
+    position: fixed;
+    top: 5px;
+    width: 100%;
+   
+    /* Font */
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;   
+}
+
+/* Navegation Icon */
 .nav-icon{
+    /* Position */ 
     float: left;
     padding: 15px;
     
@@ -49,12 +63,16 @@ app-bar{
     -webkit-transition: all 0.2s ease-in-out;
 } 
 
+/* Title */
 .title{
+    /* Position */ 
     float: left;
     padding: 15px;
 } 
 
+/* Action Icons */
 .action-icon{
+    /* Position */ 
     float: right;
     padding: 15px;
     /* Transition */
@@ -64,24 +82,7 @@ app-bar{
     -webkit-transition: all 0.2s ease-in-out;
 } 
 
-.action-icon:hover{
-    background-color:#7e3ff2;
-    border-radius: 100%;
-} 
-
-.top{
-    /* Position */ 
-    position: fixed;
-    top: 5px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    font-weight: bold;
-    cursor: pointer;
-    overflow: hidden;   
-}
-
+/* App Bar botton */
 .botton{
     /* Position */ 
     position: fixed;
@@ -94,24 +95,19 @@ app-bar{
     cursor: pointer;
     overflow: hidden;   
 }
-
+/* Itens */
 .item{
     margin-top: 5px;
     display: flex;
+    align-items: center; 
     flex-direction: column;
 } 
 
-.item:hover{
-    font-size: 15px;
-} 
-
+/* Label */
 .item a{
     font-size: 15px;
 }
 
-.item i{
-    padding-left: 30px;
-}
 
 
 

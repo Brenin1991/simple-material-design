@@ -3,7 +3,7 @@
     2019 - Hard Rock Studio 
     Simple Material Design by Breno Campos Ribeiro
 
-    --Material Design Root--
+    --Material Design (App Bar Botton)--
 
     GitHub Repository: https://github.com/Brenin1991/simple-material-design
     License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
@@ -19,22 +19,15 @@
    
 }
 
-.ab-botton-red-100 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-100 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-100 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-100 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-100 .item:hover{
     color: #000000;
 } 
 
@@ -44,22 +37,15 @@
    
 }
 
-.ab-botton-red-a-100 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-a-100 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-a-100 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-a-100 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-a-100 .item:hover{
     color: #000000;
 } 
 
@@ -69,22 +55,15 @@
    
 }
 
-.ab-botton-red-200 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-200 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-200 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-200 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-200 .item:hover{
     color: #000000;
 } 
 
@@ -94,22 +73,15 @@
    
 }
 
-.ab-botton-red-a-200 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-a-200 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-a-200 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-a-200 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-a-200 .item:hover{
     color: #000000;
 } 
 
@@ -119,22 +91,15 @@
    
 }
 
-.ab-botton-red-300 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-300 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-300 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-300 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-300 .item:hover{
     color: #000000;
 } 
 
@@ -144,22 +109,15 @@
    
 }
 
-.ab-botton-red-400 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-400 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-400 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-400 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-400 .item:hover{
     color: #000000;
 } 
 
@@ -169,22 +127,15 @@
    
 }
 
-.ab-botton-red-a-400 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-a-400 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-a-400 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-a-400 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-a-400 .item:hover{
     color: #000000;
 } 
 
@@ -194,22 +145,15 @@
    
 }
 
-.ab-botton-red-500 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-500 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-500 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-500 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-500 .item:hover{
     color: #000000;
 } 
 
@@ -219,22 +163,15 @@
    
 }
 
-.ab-botton-red-600 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-600 .item{
     color: rgba(0, 0, 0, 0.5);
 } 
 
 .ab-botton-red-600 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-600 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-600 .item:hover{
     color: #000000;
 } 
 
@@ -244,22 +181,15 @@
    
 }
 
-.ab-botton-red-700 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-700 .item{
     color: rgba(255, 255, 255, 0.5);
 } 
 
 .ab-botton-red-700 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-700 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-700 .item:hover{
     color: rgba(255, 255, 255);
 } 
 
@@ -269,22 +199,15 @@
    
 }
 
-.ab-botton-red-a-700 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-a-700 .item{
     color: rgba(255, 255, 255, 0.5);
 } 
 
 .ab-botton-red-a-700 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-a-700 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-a-700 .item:hover{
     color: rgba(255, 255, 255);
 } 
 
@@ -294,22 +217,15 @@
    
 }
 
-.ab-botton-red-800 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-800 .item{
     color: rgba(255, 255, 255, 0.5);
 } 
 
 .ab-botton-red-800 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-800 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-800 .item:hover{
     color: rgba(255, 255, 255);
 } 
 
@@ -319,22 +235,15 @@
    
 }
 
-.ab-botton-red-900 .icon{
-    padding-top: 15px;
-    padding-left: 15px;
-    font-size: 15px;
+.ab-botton-red-900 .item{
     color: rgba(255, 255, 255, 0.5);
 } 
 
 .ab-botton-red-900 .label{
-    float: right;
-    padding-left: 20px;
-    padding-right: 20px;
 
 }
 
-.ab-botton-red-900 .icon:hover{
-    font-size: 15px;
+.ab-botton-red-900 .item:hover{
     color: rgba(255, 255, 255);
 } 
 
