@@ -1,0 +1,29 @@
+@import url('css/style.css');
+
+html, body {
+	height: 100%;
+}
+
+#tudo {
+	min-height: 100%;
+}
+
+* html #tudo {
+	height: 100%;
+}
+
+#tudo {
+	position: relative;
+
+}
+
+#rodape {
+    position: absolute;
+    width: 100%;
+	bottom: 0;
+}
+
+#conteudo {
+    padding-bottom: 30px;
+    height: 100%;
+}
