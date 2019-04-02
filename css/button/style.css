@@ -3,7 +3,7 @@
     2019 - Hard Rock Studio 
     Simple Material Design by Breno Campos Ribeiro
 
-    --Material Design Button--
+    --Material Design (Button)--
 
     GitHub Repository: https://github.com/Brenin1991/simple-material-design
     License: https://drive.google.com/open?id=11ZTUlB6qpoKk_XgD6_dtKntQOfCsuQj8
@@ -11,25 +11,31 @@
 
 /* Floating Button */
 floating-button{
-    position:fixed;
-    display: block;
+    /* Size */
 	width:56px;
-	height:56px;
-	color:#FFF;
-	border-radius: 100%;
-    text-align:center;
-    margin: 2em;
+    height:56px;
+    border-radius: 100%;
     border: none;
     outline: none;
-    letter-spacing: 0;
-    font-weight: bold;
-    cursor: pointer;
-    overflow: hidden;
+    /* Position */
+    position:fixed;
+    display: block;
     margin-top:10px;
 	bottom:40px;
 	right:0px;
     
-    /* Remove selection */
+    /* Font */
+	color:#FFF;
+    text-align:center;
+    margin: 2em;
+    letter-spacing: 0;
+    font-weight: bold;
+
+    /* Cursor */
+    cursor: pointer;
+    overflow: hidden;
+    
+    /* Remove Selection */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -48,22 +54,28 @@ floating-button{
 
 /* Button */
 button{
-    position: relative;
-    display: block;
+    /* Size */
     min-width: 88px;
-    padding: 12px 20px;
     height: 3em;
-    margin: 2em;
+    border-radius: 3px;
     border: none;
     outline: none;
+    /* Position */
+    position: relative;
+    display: block;
+    margin: 2em;
+    padding: 12px 20px;
+    
+    /* Font */
     letter-spacing: 0;
     font-weight: bold;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 3px;
     font-family: 'Roboto', sans-serif;
     
-    /* Remove selection */
+    /* Cursor */
+    cursor: pointer;
+    overflow: hidden;
+
+    /* Remove Selection */
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -82,20 +94,16 @@ button{
 
 button a{
     float: right;
-    color: #000000;
 }
 
 button i{
     padding-right: 10px;
-    color: #000000;
 }
 
 floating-button a{
     float: right;
-    color: #000000;
 }
 
 floating-button i{
     margin-top: 30%;
-    color: #000000;
 }
